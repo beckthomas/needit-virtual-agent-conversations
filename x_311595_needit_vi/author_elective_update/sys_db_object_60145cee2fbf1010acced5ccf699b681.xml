@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>temp user table</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>imp_staging_table_1602680253386</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">fcf70295983100107f2c2ed01a1f1618</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-14 12:57:33</sys_created_on>
+        <sys_id>60145cee2fbf1010acced5ccf699b681</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>temp user table</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_311595_needit_vi">beb4e4192f7b5010acced5ccf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">beb4e4192f7b5010acced5ccf699b6fb</sys_scope>
+        <sys_update_name>sys_db_object_60145cee2fbf1010acced5ccf699b681</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 18:26:41</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt Virtual Agent Conversations">beb4e4192f7b5010acced5ccf699b6fb</application>
+        <file_path/>
+        <instance_id>8d836539dbe713403353f22ebf9619b7</instance_id>
+        <instance_name>dev67437</instance_name>
+        <name>sys_db_object_60145cee2fbf1010acced5ccf699b681</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>temp user table</label><live_feed_enabled>false</live_feed_enabled><name>imp_staging_table_1602680253386</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">fcf70295983100107f2c2ed01a1f1618</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-14 12:57:33</sys_created_on><sys_id>60145cee2fbf1010acced5ccf699b681</sys_id><sys_mod_count>2</sys_mod_count><sys_name>temp user table</sys_name><sys_package display_value="NeedIt Virtual Agent Conversations" source="x_311595_needit_vi">beb4e4192f7b5010acced5ccf699b6fb</sys_package><sys_policy/><sys_scope display_value="NeedIt Virtual Agent Conversations">beb4e4192f7b5010acced5ccf699b6fb</sys_scope><sys_update_name>sys_db_object_60145cee2fbf1010acced5ccf699b681</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-16 18:26:41</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1858707763</payload_hash>
+        <record_name>temp user table</record_name>
+        <reverted_from/>
+        <source>72b4e4192f7b5010acced5ccf699b6fe</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 18:26:41</sys_created_on>
+        <sys_id>0592bb0b2f335010acced5ccf699b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17532a9f8e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 18:26:41</sys_updated_on>
+        <type>Table</type>
+        <update_guid>8d92bb0b50335010be0b695bc259435f</update_guid>
+        <update_guid_history>8d92bb0b50335010be0b695bc259435f:-1858707763,da12b7c75e335010c20d33c9f9b9c8e6:-782959094,30145cee2bbf101092541b690c472da3:758546662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-21 16:30:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0a5e65c9c7004b49816bb19ee1a26b99</sys_id>
+        <sys_metadata>60145cee2fbf1010acced5ccf699b681</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temp user table</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_311595_needit_vi">beb4e4192f7b5010acced5ccf699b6fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">beb4e4192f7b5010acced5ccf699b6fb</sys_scope>
+        <sys_scope_delete display_value="">057a593718114e008026ec46f5898104</sys_scope_delete>
+        <sys_update_name>sys_db_object_60145cee2fbf1010acced5ccf699b681</sys_update_name>
+        <sys_update_version display_value="sys_db_object_60145cee2fbf1010acced5ccf699b681">0592bb0b2f335010acced5ccf699b660</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-21 16:30:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

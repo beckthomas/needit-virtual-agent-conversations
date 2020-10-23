@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <cb_topic_id display_value="Update NeedIt Records">cdb7e8592f7b5010acced5ccf699b6e7</cb_topic_id>
+        <definition>{"id":"cdb7e8592f7b5010acced5ccf699b6e7","name":"Update NeedIt Records","system_topic":false,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Update NeedIt Records","applicability":"true","category":"","key_phrases":["Update NeedIt Records","needit","update","needit request"],"variables":[{"name":"__segment_trigger_1c6eb0bbfa0a41e9b1cfc4dd8a6dccb6_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_c2b7e01d837b5010724d4efca5d4e804","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_5a83ec06f6ac41d88d514bab776c978c","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_42b7e01d937b50105dee8032301a7a04","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_41d7a66289654f00a08dd55a9042bd38","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_1c6eb0bbfa0a41e9b1cfc4dd8a6dccb6_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_c2b7e01d837b5010724d4efca5d4e804\");vaInputs.initialize(\"__silent_Decision_RootDecision_42b7e01d937b50105dee8032301a7a04\");vaInputs.initialize(\"__silent_TerminateGoal_41d7a66289654f00a08dd55a9042bd38\");vaInputs.initialize(\"__silent_StartGoal_5a83ec06f6ac41d88d514bab776c978c\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304\");null;","fields":[{"name":"__silent_Decision_RootDecision_42b7e01d937b50105dee8032301a7a04","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_42b7e01d937b50105dee8032301a7a04\";vaInputs.__silent_Decision_RootDecision_42b7e01d937b50105dee8032301a7a04=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_42b7e01d937b50105dee8032301a7a04\";vaInputs.RootDecisionBranch_c2b7e01d837b5010724d4efca5d4e804=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_42b7e01d937b50105dee8032301a7a04\" &amp;&amp; ((vaInputs.RootDecisionBranch_c2b7e01d837b5010724d4efca5d4e804.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304___RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304\";vaInputs.__silent_Branch_RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304___RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304\";null;"},{"name":"__silent_StartGoal_5a83ec06f6ac41d88d514bab776c978c","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304___RootDecisionBranch_82b7e01d9b7b501095fea990d5aca304\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___5a83ec06f6ac41d88d514bab776c978c\";vaInputs.__silent_StartGoal_5a83ec06f6ac41d88d514bab776c978c=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___5a83ec06f6ac41d88d514bab776c978c\";null;"},{"name":"__silent_TerminateGoal_41d7a66289654f00a08dd55a9042bd38","applicable":"vaVars.previous_graph_node==\"Start___5a83ec06f6ac41d88d514bab776c978c\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___41d7a66289654f00a08dd55a9042bd38\";vaInputs.__silent_TerminateGoal_41d7a66289654f00a08dd55a9042bd38=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___41d7a66289654f00a08dd55a9042bd38\";vaVars.__segment_trigger_1c6eb0bbfa0a41e9b1cfc4dd8a6dccb6_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"flexible_conversation_switching":false,"design_category":"c576a01d2f7b5010acced5ccf699b62f","nlu_provider":"","nlu_model":"","nlu_intent":"","score":0.0,"visible":true,"sys_scope":"beb4e4192f7b5010acced5ccf699b6fb","sys_domain":"global","title":"Update NeedIt Records","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category display_value="Virtual Agent topics for the NeedIt Virtual Agent Conversations application">c576a01d2f7b5010acced5ccf699b62f</design_category>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Update NeedIt Records needit update needit request</key_phrases>
+        <last_published_on>2020-10-10 17:11:00</last_published_on>
+        <library>false</library>
+        <library_usage/>
+        <metaphone>APTT RKST RKRT NTT</metaphone>
+        <name>Update NeedIt Records</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-10 17:11:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ceb7e01d2f7b5010acced5ccf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_311595_needit_vi">beb4e4192f7b5010acced5ccf699b6fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">beb4e4192f7b5010acced5ccf699b6fb</sys_scope>
+        <sys_update_name>sys_cs_topic_ceb7e01d2f7b5010acced5ccf699b604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-10 17:11:00</sys_updated_on>
+        <title>Update NeedIt Records</title>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=ceb7e01d2f7b5010acced5ccf699b604"/>
+</record_update>
